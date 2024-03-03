@@ -1,7 +1,18 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: yellow;
+}
 :root{
     --primary:#3dcfd3;
     --dark:#161616;
     --pure:#FFFFFF;
     --ternary:#898989;
     --light:#F2F2F2;
+}
+header{
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    width: 100vh;
+    height: 50px;
 }
