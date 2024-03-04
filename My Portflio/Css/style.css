@@ -1,8 +1,12 @@
 *{
     font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
 }
 body{
-    background-color: yellow;
+    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
 }
 :root{
     --primary:#3dcfd3;
@@ -12,7 +16,210 @@ body{
     --light:#F2F2F2;
 }
 header{
-    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
-    width: 100vh;
+    background-image: linear-gradient(45deg, #93a5cf 0%, #757977 100%);
+    width: 100vw;
     height: 50px;
 }
+#check{
+    display: none;
+}
+#check1{
+    display: none;
+}
+.ham-burger{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    left: 10px;
+    padding: 0;
+    display: none;
+}
+.ham-burger:hover{
+    color:#161616;
+}
+.ham-burger:active{
+    color: #c7ccca;
+}
+@media (max-width:480px){
+    .ham-burger{
+        color: white;
+        font-size: 40px;
+        font-weight: 700;
+        position: absolute;
+        left: 10px;
+        padding: 0;
+        display: block;
+    }
+    .ham-burger:hover{
+        color:#161616;
+    }
+    .ham-burger:active{
+        color: #c7ccca;
+    }
+    .left-div{
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 20px;
+        display: none;
+    }
+    #social_container{
+        display: none;
+    }
+    .social_item{
+        font-size: 25px;
+        position: relative;
+        margin-top: 10px;
+        height: 30px;
+        width: 50px;
+        display: none;
+    }
+}
+@media (min-width:481px) and (max-width:719px){
+    .left-div{
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 13px;
+        word-spacing: 5px;
+    }
+    #social_container{
+        position: absolute;
+        margin-left: 300px;
+        width: 140px;
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .social_item{
+        font-size: 15px;
+        margin-top: 15px;
+        height: 30px;
+        width: 30px;
+    }
+    .social_item:nth-child(2){
+        margin-right: -7px;
+    }
+}
+@media (min-width:720px)and (max-width:1023px){
+    #social_container{
+        position: absolute;
+        margin-left: 570px;
+        width: 220px;
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .social_item{
+        font-size: 25px;
+        margin-top: 10px;
+        height: 30px;
+        width: 50px;
+    }
+    .social_item:nth-child(2){
+        margin-right: -7px;
+    }
+}
+@media (min-width:1024px){
+    #social_container{
+        position: absolute;
+        margin-left: 750px;
+        width: 220px;
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .social_item{
+        font-size: 25px;
+        margin-top: 10px;
+        height: 30px;
+        width: 50px;
+    }
+    .social_item:nth-child(2){
+        margin-right: -7px;
+    }
+}
+#twitter,#facebook,#instagram,#github{
+    color: #c8cecb;
+}
+#facebook:hover{
+    color:#404040;
+}
+#instagram:hover{
+    color:#404040;
+}
+#github:hover{
+    color:#404040;
+}
+#twitter:hover{
+    color:#404040;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 15px;
+    height: 50px;
+}
+.left-div{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.left-div>a{
+    color:#404040;
+    text-decoration: none;
+}
+.left-div>a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.right-div{
+    margin-top: 12px;
+    margin-right: 20px;
+}
+#acc{
+    color: rgb(218, 218, 218);
+}
+#acc:hover{
+    color: black;
+}
+#acc:active{
+    color: #c7ccca;
+}
+.main{
+    width: 100vw;
+    height: 500px;
+    background-color: #737373;
+}
+/* .main1{
+    height: 200px;
+    width: 200px;
+    border: yellow 5px double;
+    transform:
+      scale(0.75)
+      rotateY(-30deg)
+      rotateX(45deg)
+      translateZ(4.5rem);
+    transform-origin: 50% 100%;
+    transform-style: preserve-3d;
+    box-shadow: 1rem 1rem 2rem rgba(0,0,0,0.25);
+    transition: 0.6s ease transform;
+  
+    &:hover {
+      transform: scale(1);
+    }
+  
+    &::before {
+      transform: translateZ(4rem);
+      &:hover {
+        transform: translateZ(0);
+      }
+    }
+  
+    &::after {
+      transform: translateZ(-4rem);
+      &:hover {
+        transform: translateZ(-1px);
+      }
+    }
+  } */
