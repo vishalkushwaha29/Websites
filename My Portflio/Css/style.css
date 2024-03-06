@@ -33,7 +33,7 @@ header{
     position: absolute;
     left: 10px;
     padding: 0;
-    display: none;
+    margin-top: -8px;
 }
 .ham-burger:hover{
     color:#161616;
@@ -139,20 +139,28 @@ header{
         margin-right: -7px;
     }
 }
-#twitter,#facebook,#instagram,#github{
+#twitter,#facebook,#instagram,#github,#youtube{
     color: #c8cecb;
 }
 #facebook:hover{
     color:#404040;
+    transform: scale(1.2);
 }
 #instagram:hover{
     color:#404040;
+    transform: scale(1.2);
 }
 #github:hover{
     color:#404040;
+    transform: scale(1.2);
 }
 #twitter:hover{
     color:#404040;
+    transform: scale(1.2);
+}
+#youtube:hover{
+    color:#404040;
+    transform: scale(1.2);
 }
 nav{
     display: flex;
@@ -182,6 +190,7 @@ nav{
 }
 #acc:hover{
     color: black;
+    cursor: pointer;
 }
 #acc:active{
     color: #c7ccca;
@@ -189,37 +198,120 @@ nav{
 .main{
     width: 100vw;
     height: 500px;
-    background-color: #737373;
+    background-color: #b3a6a6;
 }
-/* .main1{
-    height: 200px;
-    width: 200px;
-    border: yellow 5px double;
-    transform:
-      scale(0.75)
-      rotateY(-30deg)
-      rotateX(45deg)
-      translateZ(4.5rem);
-    transform-origin: 50% 100%;
-    transform-style: preserve-3d;
-    box-shadow: 1rem 1rem 2rem rgba(0,0,0,0.25);
-    transition: 0.6s ease transform;
+.slider_menu{
+    position: absolute;
+    left: -235px;
+    margin-top: -50px;
+    background-color: #999999;
+    width: 232px;
+    height: 100vh;
+    border-radius: 5px;
+    border-right: 2px solid rgb(133, 131, 131);
+}
+.x-mark{
+    height: 20px;
+    width: 20px;
+    margin-top: -65px;
+    margin-left: 205px;
+    opacity: 0;
+}
+#x-mark:hover{
+    cursor: pointer;
+}
+.slider_heading{
+    width: 230px;
+    height: 60px;
+    background-color: #7c8186;
+}
+.slider_heading>h2{
+    color: black;
+    font-size: 20px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    font-weight: 600;
   
-    &:hover {
-      transform: scale(1);
-    }
-  
-    &::before {
-      transform: translateZ(4rem);
-      &:hover {
-        transform: translateZ(0);
-      }
-    }
-  
-    &::after {
-      transform: translateZ(-4rem);
-      &:hover {
-        transform: translateZ(-1px);
-      }
-    }
-  } */
+}
+.slider_heading{
+    border: 4px solid rgb(114, 113, 113);
+}
+.slider_heading:hover{
+    box-shadow: 0px 0px 0px 2px rgb(99, 99, 99);
+}
+.slider_menu_content{
+    width: 226px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: #757977;
+    border: 2px solid rgb(168, 163, 163);
+}
+.slider_menu_content_home{
+    width: 226px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: #757977;
+    border: 2px solid rgb(168, 163, 163);
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.slider_menu_content_home>a{
+    color: #c9c9c9;
+}
+.slider_menu_content_home>a:hover{
+    color: #F2F2F2;
+}
+.slider_menu_content_home:hover{
+    box-shadow: 2px 0px 2px 2px rgb(170, 170, 170);
+    border-radius: 5px;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.slider_menu_content>a{
+    color: #c9c9c9;
+}
+.slider_menu_content>a:hover{
+    color: #F2F2F2;
+}
+.slider_menu_content:hover{
+    box-shadow: 2px 0px 2px 2px rgb(170, 170, 170);
+    border-radius: 5px;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.slider_menu_content_contact{
+    margin-top: 50px;
+    width: 226px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    border-top: 2px solid rgb(90, 89, 89);
+    letter-spacing: 5px;
+}
+.material-symbols-outlined{
+    font-size: 20px;
+}
+.Contact1{
+    display: flex;
+    justify-content: space-evenly;
+}
+#abc{
+    color: #000000;
+}
+#abc:hover{
+    color: #c8cecb;
+    font-size: 20px;
+    transform: scale(1.5);
+}
+#abc{
+    font-size: 20px;
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+}
