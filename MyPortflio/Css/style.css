@@ -435,15 +435,145 @@ nav{
     margin-left: 20px;
     margin-right: 20px;
 }
-#slide1,#slide2,#slide3{
-    width: 100vw;
-    height: 500px;
-    background-size: cover;
-    background-repeat: no-repeat;
+#section2{
+    display: flex;
+    justify-content: start;
 }
-.s1, .s2, .s3{
+#section2 h1{
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.circle-div{
+    background-color: #304352;
+    margin-top: 13rem;
+    margin-left: 10rem;
+    height: 28rem;
+    width: 28rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: rotate;
     position: absolute;
-    margin-top: 250px;
-    margin-left: 40vw;
-    display: inline;
+}
+@keyframes rotate {
+    
+}
+.circle-div>.square0>a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+.circle-div>.square1>a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+.circle-div>.square2>a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+.circle-div>.square3>a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+.circle-div>.square4>a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+.circle-div>.square5>a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+.circle-div>.square6>a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+.square0{
+    position: absolute;
+    z-index: 5;
+    height: 50px;
+    transform: rotate(285deg);
+    margin-left: 12.5rem;
+    margin-bottom: 41rem;
+    margin-right: 10rem;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.square1{
+    height: 50px;
+    transform: translateX(218px);
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-left: 10rem;
+}
+.square2{
+    position: absolute;
+    z-index: 5;
+    height: 50px;
+    transform: rotate(335deg);
+    margin-top: 5px;
+    margin-left: 40rem;
+    margin-bottom: 22rem;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.square3{
+    position: absolute;
+    z-index: 5;
+    height: 50px;
+    transform: rotate(300deg);
+    margin-left: 32rem;
+    margin-bottom: 34rem;
+    margin-right: 10rem;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.square4{
+    position: absolute;
+    z-index: 5;
+    height: 50px;
+    transform: rotate(28deg);
+    margin-left: 40rem;
+    margin-top: 18rem;
+    margin-right: 2.5rem;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.square5{
+    position: absolute;
+    z-index: 5;
+    height: 50px;
+    transform: rotate(55deg);
+    margin-left: 37rem;
+    margin-top: 32rem;
+    margin-right: 12rem;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.square6{
+    position: absolute;
+    z-index: 5;
+    height: 50px;
+    transform: rotate(70deg);
+    margin-left: 20rem;
+    margin-top: 41rem;
+    margin-right: 12rem;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.logo1{
+    background-color: #fff;
+    height: 80px;
+    width: 200px;
+    position: absolute;
+    z-index: 6;
+    right: 0px;
 }
