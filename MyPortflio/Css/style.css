@@ -570,10 +570,10 @@ nav{
     font-weight: 600;
 }
 .logo1{
-    background-color: #fff;
+    background-color: white;
     height: 80px;
     width: 200px;
     position: absolute;
-    z-index: 6;
+    z-index: 8;
     right: 0px;
 }
