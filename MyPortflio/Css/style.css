@@ -140,7 +140,7 @@ header{
     }
     #social_container{
         position: absolute;
-        margin-left: 1000px;
+        margin-left: 900px;
         width: 220px;
         height: 50px;
         display: flex;
@@ -454,11 +454,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation-name: rotate;
     position: absolute;
-}
-@keyframes rotate {
-    
 }
 .circle-div>.square0>a{
     text-decoration: none;
@@ -569,11 +565,9 @@ nav{
     font-size: 2rem;
     font-weight: 600;
 }
-.logo1{
-    background-color: white;
-    height: 80px;
-    width: 200px;
-    position: absolute;
-    z-index: 8;
-    right: 0px;
+.circle-div>.all:hover{
+    font-size: 2.5rem;
+}
+.circle-div>.all>a:hover{
+    color: #fff;
 }
