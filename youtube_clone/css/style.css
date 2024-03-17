@@ -27,6 +27,7 @@ nav{
 }
 .ham-burger:hover{
     opacity: 100%;
+    cursor: pointer;
 }
 .youtube-logo{
     height: 3.5rem;
@@ -76,10 +77,9 @@ nav{
     width: 29rem;
     height: 1.8rem;
     margin: 0;
-    border: none;
+    border-style: none;
     background-color: #272727;
     opacity: 88%;
-    box-shadow: (0, 0, 0, 0) 0px 1px 2px 0px inset
 }
 .search-div-a{
     margin-left: 31.7rem;
@@ -122,7 +122,7 @@ nav{
 .my-acc-div{
     height: 3rem;
     width: 12rem;
-    margin-left: 70rem;
+    margin-left: 73rem;
     margin-top: -2.9rem;
     display: flex;
     justify-content: space-evenly;
@@ -140,6 +140,7 @@ nav{
 }
 .my_acc:hover{
     opacity: 100%;
+    cursor: pointer;
 }
 .my_acc1{
     margin-left: 1rem;
@@ -148,6 +149,10 @@ nav{
     height: 2.7rem;
     width: 2.7rem;
     border-radius: 50%;
+}
+.my_acc1:hover{
+    opacity: 100%;
+    cursor: pointer;
 }
 .sidebar{
     width: 15rem;
@@ -216,7 +221,7 @@ nav{
     margin-right: 4.1rem;
 }
 .profile1{
-    padding-left: 1.4rem;
+    padding-left: 1rem;
 }
 .a3{
     font-size: 1.1rem; 
@@ -224,10 +229,10 @@ nav{
     margin-right: 2.5rem;
 }
 .profile2{
-    padding-left: 1.5rem;
+    padding-left: 1rem;
 }
 .profile3{
-    padding-left: 1.2rem;
+    padding-left: 0.7rem;
 }
 h5{
     padding-left: 0.5rem;
@@ -244,6 +249,7 @@ h5{
     align-items: center;
     border-radius: 0.7rem;
     color: #ffffff;
+    font-weight: 300;
 }
 .Subscription-list:hover{
     background-color: black;
@@ -259,7 +265,7 @@ h5{
 }
 .chnl-1{
     font-size: 1.1rem; 
-    font-weight: 500;
+    font-weight: 400;
     margin-right: 1rem;
 }
 .logo2{
@@ -273,4 +279,377 @@ h5{
 .logo4{
     background-image: url(../images/chnl_04.jpg);
     background-size: cover;
+}
+.logo5{
+    background-image: url(../images/chnl_06.jpg);
+}
+.logo6{
+    background-image: url(../images/chnl_07.jpg);
+}
+.logo7{
+    background-image: url(../images/chnl_08.jpg);
+}
+.logo8{
+    background-image: url(../images/chnl_09.jpg);
+}
+.headline{
+    width: 90%;
+    height: 3rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: -3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn-1{
+    background-color: #5c5b5b;
+    color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 4rem;
+    margin-left: 1.5rem;
+}
+.btn-1>p{
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+.btn-2{
+    background-color: #313131;
+    color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 4.5rem;
+    margin-left: 1.5rem;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+.btn-3{
+    background-color: #313131;
+    color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 3.5rem;
+    margin-left: 1.5rem;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+.btn-4{
+    background-color: #313131;
+    color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 3.5rem;
+    margin-left: 1.5rem;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+.btn-5{
+    background-color: #313131;
+    color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 3.2rem;
+    margin-left: 1.5rem;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    letter-spacing: 1px;
+}
+.btn-6{
+    background-color: #313131;
+    color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 5.5rem;
+    margin-left: 1.5rem;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+.btn-7{
+    background-color: #313131;
+    color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 3.2rem;
+    margin-left: 1.5rem;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+.btn-8{
+    background-color: #313131;
+    color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 3rem;
+    margin-left: 1.5rem;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+.btn-9{
+    background-color: #313131;
+    color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 4rem;
+    margin-left: 1.5rem;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+.btn-10{
+    background-color: #313131;
+    color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 8.2rem;
+    margin-left: 1.5rem;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+.btn-11{
+    background-color: #313131;
+    color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 8.2rem;
+    margin-left: 1.5rem;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+.btn-12{
+    background-color: #313131;
+    color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+    margin-left: 1.5rem;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+.btn-0{
+    background-color: #313131;
+    color: white;
+}
+.btn-0:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+}
+.content-big-div{
+    width: 100%;
+    height: 20rem;
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content-small-div{
+    padding: 1rem 3rem rem 3rem;
+    width: 30%;
+    margin-right: 1rem;
+    height: 18rem;
+    display: flex;
+    justify-content: center; 
+    border-radius: 10px;
+    margin-top: 4rem;
+}
+.content-small-div>img{
+    background-size: cover;
+    border-radius: inherit;
+    width: 100%;
+    height: 75%;
+}
+.content-small-div>img:hover{
+    cursor: pointer;
+}
+.my_acc2{
+    position: absolute;
+    margin-left: -19.5rem;
+    margin-top: 13.8rem;
+    background-image: url(../images/chnl_09.jpg);
+    background-size: cover;
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50%;
+}
+.my_acc3{
+    position: absolute;
+    margin-left: -19.5rem;
+    margin-top: 13.8rem;
+    background-image: url(../images/chnl_01.jpg);
+    background-size: cover;
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50%;
+}
+.my_acc4{
+    position: absolute;
+    margin-left: -19.5rem;
+    margin-top: 13.8rem;
+    background-image: url(../images/chnl_02.jpg);
+    background-size: cover;
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50%;
+}
+.my_acc5{
+    position: absolute;
+    margin-left: -19.5rem;
+    margin-top: 13.8rem;
+    background-image: url(../images/chnl_03.jpg);
+    background-size: cover;
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50%;
+}
+.my_acc6{
+    position: absolute;
+    margin-left: -19.5rem;
+    margin-top: 13.8rem;
+    background-image: url(../images/chnl_04.jpg);
+    background-size: cover;
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50%;
+}
+.my_acc7{
+    position: absolute;
+    margin-left: -19.5rem;
+    margin-top: 13.8rem;
+    background-image: url(../images/chnl_06.jpg);
+    background-size: cover;
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50%;
+}
+.my_acc8{
+    position: absolute;
+    margin-left: -19.5rem;
+    margin-top: 13.8rem;
+    background-image: url(../images/chnl_07.jpg);
+    background-size: cover;
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50%;
+}
+.my_acc9{
+    position: absolute;
+    margin-left: -19.5rem;
+    margin-top: 13.8rem;
+    background-image: url(../images/chnl_11.jpg);
+    background-size: cover;
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50%;
+}
+.my_acc10{
+    position: absolute;
+    margin-left: -19.5rem;
+    margin-top: 13.8rem;
+    background-image: url(../images/chnl_10.jpg);
+    background-size: cover;
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50%;
+}
+.my_acc11{
+    position: absolute;
+    margin-left: -19.5rem;
+    margin-top: 13.8rem;
+    background-image: url(../images/chnl_10.jpg);
+    background-size: cover;
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50%;
+}
+.my_acc12{
+    position: absolute;
+    margin-left: -19.5rem;
+    margin-top: 13.8rem;
+    background-image: url(../images/chnl_11.jpg);
+    background-size: cover;
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50%;
+}
+.title-div{
+    color: #fff;
+    position: absolute;
+    margin-top: 13.8rem;
+    margin-left: -16rem;
+    font-weight: 500;
+    height: 2.7rem;
+    width: 15rem;
+    opacity: 85%;
+}
+.views{
+    font-family: arial;
+    font-size: 15px;
+    color: #5c5b5b;
+    display: inline;
+}
+.title-div:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 100%;
+}
+.views:hover{
+    text-decoration: none;
+}
+.container{
+    overflow-y: scroll;
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+.arrow{
+    color: #fff;
+}
+.arrow:hover{
+    cursor: pointer;
+}
+.footer-div{
+    height: 20rem;
+    background-color: #5c5b5b;
+    position: absolute;
+    bottom: 0;
 }
