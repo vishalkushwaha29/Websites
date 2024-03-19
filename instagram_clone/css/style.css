@@ -217,9 +217,8 @@ body{
 }
 .account-info-container{
     width: 22rem;
-    height: 34rem;
+    height: 45rem;
     margin-top: 2rem;
-    background-color: blueviolet;
     margin-right: 3rem;
     display: flex;
     justify-content: center;
@@ -267,4 +266,31 @@ body{
     font-size: 14px;
     font-weight:700 ;
     margin-left: 5rem;
+}
+.suggested-acc-div{
+    width: 17rem;
+    height: 22.5rem;
+    position: absolute;
+    margin-top: 10rem;
+}
+.imp-links-div{
+    width:17rem;
+    height: 2.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.anchor-tag{
+    text-decoration: none;
+    margin-right: 0.2rem;
+    font-size: 0.7rem;
+    color: rgb(194, 194, 194);
+}
+.anchor-tag:hover{
+    text-decoration: underline;
+}
+.copyright{
+    opacity: 80%;
+    font-size: 0.9rem;
 }
