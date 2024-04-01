@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+.biga{
+    margin: auto;
+    height: 600px;
+    width: 350px;
+    border: 1px solid black;
+}
+.title-div{
+    width: 350px;
+    height: 60px;
+    border-bottom: 2px solid black;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: rgb(226, 42, 42);
+}
+.blue{
+    background-color: blueviolet;
+}
+.btn-container{
+    margin-left: 25px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    border: 7px solid black;
+    margin: 0.8rem;
+}
+.gameFlash{
+    background-color: azure;
+}
+.userFlash{
+    background-color: rgb(73, 255, 185);
+}
