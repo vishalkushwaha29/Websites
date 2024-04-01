@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* box-1 */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(/Users/vk667/Downloads/amazon_logo.png);
+    width: 100px;
+    height: 50px;
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+    border-radius: 3px;
+}
+/* box-2 */
+
+.add-icon{
+    display: flex;
+    text-align: center;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    color: white;
+    font: 1rem;
+    margin-left: 3px;
+}
+/* boc-3 */
+.nav-search:hover{
+    border: 2px solid rgb(207, 78, 30);
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(223, 45, 74);
+    width: 600px;
+    height: 35px;
+    border-radius: 4px;
+}
+.search-select{
+    width: 50px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #d17f13;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+/* box-4 */
+.nav-lang{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+}
+.lang-select{
+    width: 40px;
+    height: 30px;
+    background-color: #0f1111;
+    border: none;
+    font-weight: 900;
+    color: white;
+    margin-left: 3px;
+}
+.lang-logo{
+    background-image: url(/Users/vk667/Downloads/india-162319_1280.png);
+    width: 40px;
+    height: 20px;
+    background-size: cover;
+}
+/* box-4 */
+.nav-signin{
+    height: 45px;
+
+}
+span{
+    font-size: 0.75rem;
+    margin-left: 4px;
+}
+.nav-second{
+    width: 130px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border: none;
+    background-color: #0f1111;
+    color: white    ;
+}
+.nav-return{
+    align-items: center;
+    height: 45px;
+}
+.orders{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart{
+    display: flex;
+}
+.cart-logo{
+    font-size: x-large;
+}
+.cart{
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+/* panel */
+.panel{
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: .0.89rem;
+    font-weight: 600;
+}
+.border2{
+    border-bottom: 1px solid transparent;
+}
+.border2:hover{
+    border-bottom: 1px solid white;
+    cursor: default;
+}
+/* Hero-section */
+.hero-section{
+    height: 300px;
+    background-image: url(/Users/vk667/Downloads/hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+    width: 80%;
+}
+.hero-msg a{
+    color: #007185;
+    margin-left: 5px;
+}
+/* Box-section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(10, 44, 63);
+    height: 750px;
+}
+.box{
+    width: 23%;
+    height: 300px; 
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+}
+.box-img{
+        height: 250px;
+        background-size: cover;
+        margin-top: 10px;
+        margin-bottom: 8px;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185;
+}
+/* footer */
+footer{
+    margin-top: 20px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    justify-content: center;
+    font-weight: 300;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 380px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.foot-list{
+    cursor: default;
+    display: block;
+}
+ul p{
+    font-size: larger;
+    margin-bottom: 10px;
+}
+ul a {
+    color: #DDDDDD;
+    display: block;
+    margin-bottom: 10px;
+}
+.foot-list a:hover{
+    color: #007185;
+}
+ul{
+  margin-top: 15px;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: small;
+}
+.foot-pages{
+           text-align: center;
+           padding-top: 25px;
+}
+.copyright{
+    text-align: center;
+    padding-top: 10px;
+}
