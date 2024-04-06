@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(209, 160, 255);
-    background-color: black;
+    background-color: rgb(154, 96, 207);
 }
 .Container{
     height: 450px;
     width: 320px;
-    background-color: #ffe0e5;
+    /* background-color: #ffe0e5; */
+    background-color: rgb(202, 145, 255);
     border-radius: 2px;
     margin: 80px auto;
     padding: 20px;
@@ -41,14 +41,15 @@ body{
 .button span{
     font-size: 18px;
     font-weight: 700;
-    color: #f53192;
+    /* color: #f53192; */
+    color: blueviolet;
 }
 .song-thm{
     height: 150px;
     width: 150px;
     border-radius: 50%;
     margin: 15px auto;
-    outline: 5px solid rgb(190, 127, 253);
+    outline: 5px solid rgb(162, 109, 216);
     text-align: center;
     align-items: center;
 }
@@ -72,14 +73,16 @@ body{
     -webkit-appearance: none;
     width: 150%;
     height: 5px;
-    background: #f53192;
+    /* background: #f53192; */
+    background: rgb(178, 113, 238);
     border-radius: 4px;
     cursor: pointer;
     margin: 30px 0 0 -35px;
 }
 #progress::-webkit-slider-thumb{
     -webkit-appearance: none;
-    background: #f53192;
+    /* background: #f53192; */
+    background: blueviolet;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -102,13 +105,15 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    color: #f53192;
+    /* color: #f53192; */
+    color: blueviolet;
     cursor: pointer;
     box-shadow: 0px 10px 20px rgba(255, 26, 26, 0.22);
 }
 .controls div:nth-child(2){
     transform: scale(1.5);
-    background: #f53192;
+    /* background: #f53192; */
+    background-color: rgb(141, 60, 216);
     color: #fff;
 }
 
