@@ -24,16 +24,16 @@
             <p class="artist-name">Arijit singh(slowed-reverb)</p>
             
             <audio id="song">
-                <source src="../audio/Suno Na Sangemarmar (SlowedReverb)  Arijit Singh  Zamina.mp3" type="audio/mpeg">
+                <source id="source" src="../audio/Suno Na Sangemarmar (SlowedReverb)  Arijit Singh  Zamina.mp3" type="audio/mpeg">
             </audio>
             
             <input id="progress" type="range" value="0">
 
             <div class="controls">
 
-                <div class="controls-icon"><i class="fa-solid fa-backward"></i></div>
+                <div class="controls-icon " id="bcwrd" type="button"><i class="fa-solid fa-backward"></i></div>
                 <div onclick="playPause()" class="controls-icon"><i id="ctrlIcon" class="fa-solid fa-play"></i></div>
-                <div class="controls-icon"><i class="fa-solid fa-forward"></i></div>
+                <div class="controls-icon NextSong frward" type="button"><i class="fa-solid fa-forward"></i></div>
             
             </div>
         
