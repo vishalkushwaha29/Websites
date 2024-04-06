@@ -50,14 +50,19 @@ body{
     border-radius: 50%;
     margin: 15px auto;
     outline: 5px solid rgb(162, 109, 216);
-    text-align: center;
-    align-items: center;
 }
 .song-thm img{
     background-size: cover;
     height: 150px;
     width: 150px;
     border-radius: 50%;
+}
+#songInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .songName{
     width: max-content;

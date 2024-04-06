@@ -18,10 +18,12 @@
        
         <div class="song-thm">
             
-            <img src="../Images/image1.jpg" alt="">
+            <img id="image" src="../Images/image1.jpg" alt="">
             
-            <p class="songName">Suno Na Sangmarmar</p>
-            <p class="artist-name">Arijit singh(slowed-reverb)</p>
+            <div id="songInfo">
+                <p class="songName">Suno Na Sangmarmar</p>
+                <p class="artist-name">Arijit singh(slowed-reverb)</p>
+            </div>
             
             <audio id="song">
                 <source id="source" src="../audio/Suno Na Sangemarmar (SlowedReverb)  Arijit Singh  Zamina.mp3" type="audio/mpeg">
@@ -31,9 +33,9 @@
 
             <div class="controls">
 
-                <div class="controls-icon " id="bcwrd" type="button"><i class="fa-solid fa-backward"></i></div>
+                <div class="controls-icon " id="backward" type="button"><i class="fa-solid fa-backward"></i></div>
                 <div onclick="playPause()" class="controls-icon"><i id="ctrlIcon" class="fa-solid fa-play"></i></div>
-                <div class="controls-icon NextSong frward" type="button"><i class="fa-solid fa-forward"></i></div>
+                <div class="controls-icon NextSong" id="forward" type="button"><i class="fa-solid fa-forward"></i></div>
             
             </div>
         
