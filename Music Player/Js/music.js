@@ -38,8 +38,6 @@ let img = document.querySelector("img");
 let nextSongBtn = document.querySelector(".NextSong");
 
 
-let currentIndex = 0;
-nextSongBtn.addEventListener("click", NextSong);
 
 // function NextSong(){
 //     // for (const song of songPlaylist) {
