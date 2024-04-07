@@ -1,3 +1,5 @@
-There Are Some Cloning Project Made By Me 😊
+There Are Some Cloning & mini Projects 
+You Can practice(html,Css,Js)By Making these Projects.
 
-You Can practice By Making these Projects.
+--Vishal Kushwaha 
+
